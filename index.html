@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>I. Municipalidad de Machalí: informe de accesibilidad y optimización</title>
+</head>
+<body>
+    <h1>I. Municipalidad de Machalí: Informe de accesibilidad y optimización</h1>
+    <h2>Páginas evaluadas: inicio, DIDECO/Egis, Trámites/preguntas frecuentes, Trámites/trámite fácil</h2>
+    <h2>1) Evaluación según pautas WCAG 2.0</h2>
+    <p>
+        <h3>Perceptible</h3>
+        <ul>
+            <li><b>1.1:</b> Proporcionar alternativas textuales para todo contenido no textual de modo que se pueda convertir a otros formatos que las personas necesiten.
+                <p><b>Inicio:</b> no hay etiquetado alt en los íconos.</p>
+                <p><img src="imagenes/1.1-inicio.png" width="800px"></p>
+                <p><b>Inicio:</b> hay botones que son imágenes y su etiquetado alt no es pertinente.</p>
+                <p><img src="imagenes/1.1-inicio1.png" width="800px"></p>
+                <p><b>Inicio:</b> no hay etiquetado alt en los botones.</p>
+                <p><img src="imagenes/1.1-inicio2.png" width="800px"></p>
+                <p><b>Egis, preguntas frecuentes, trámite fácil:</b> no hay etiquetado alt y a pesar de declarar que es responsive, no lo es; el link está vacío.</p>
+                <p><img src="imagenes/1.1-egis-tramites.png" width="800px"></p>
+                <p><b>Egis, preguntas frecuentes, trámite fácil:</b> el etiquetado alt está en inglés.</p>
+                <p><img src="imagenes/1.1-egis-tramites2.png" width="800px"></p>
+            </li>
+            <li><b>1.2:</b> Proporcionar alternativas para los medios tempodependientes. 
+            <p>No aplica.</p></li>
+            <li><b>1.3:</b> Crear contenido que pueda presentarse de diferentes formas sin perder información o estructura.</li>
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> La información del sitio no está disponible para que todo tipo de público la lea.</p>
+            <li><b>1.4:</b> Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre el primer plano y el fondo.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> el tamaño tipográfico es menor al recomendado para sitios web (14 en vez de 16), la fuente es muy liviana y de un gris que no hace mucho contraste con el fondo blanco (en el cuerpo y algunos botones).</p>
+            <p><img src="imagenes/1.4-inicio-egis-tramites.png" width="800px"><img src="imagenes/1.4-inicio-egis-tramites4.png" width="800px"></p>
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> el footer no es responsive, así que el texto se descuadra y se sale de la caja en donde debería estar, perdiendo contraste.</p>
+            <p><img src="imagenes/1.4-inicio-egis-tramites2.png" width="800px"></p>
+            <p><b>Egis (y todo el botón extendible DIDECO):</b> el rojo utilizado en el botón DIDECO es demasiado saturado y vibrante.</p>
+            <p><img src="imagenes/2.4-dideco2.png" width="800px"></p></li>
+        </ul>
+        <h3>Operable</h3>
+        <ul>
+            <li><b>2.1:</b> Proporcionar acceso a toda la funcionalidad mediante el teclado.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> el sitio es navegable por tab, pero no indica la posición del "cursor".</p></li>
+            <li><b>2.2:</b> Proporcionar a los usuarios el tiempo suficiente para leer y usar el contenido.
+            <p><b>Inicio:</b> el banner automático se mueve demasiado rápido (3 segundos), por lo que no se alcanza a leer cada etiquetado antes de que se mueva.</p>
+            <p><img src="imagenes/2.2-inicio.png" width="800px"><img src="imagenes/2.2-inicio2.png" width="800px"></p></li>
+            <li><b>2.3:</b> No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> no hay riesgos en ningún lugar.</p></li>
+            <li><b>2.4:</b> Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.
+            <p><b>Preguntas frecuentes, trámite fácil:</b> Hay breadcrumbs, pero no están completos (ejemplo egis está bien, ejemplo preguntas frecuentes está mal).</p>
+            <p><img src="imagenes/2.4-dideco1.png" width="800px"><img src="imagenes/2.4-dideco2.png" width="800px"></p>
+            <p><img src="imagenes/2.4-tramites1.png" width="800px"><img src="imagenes/2.4-tramites2.png" width="800px"></p></li>
+        </ul>
+        <h3>Comprensible</h3>
+        <ul>
+            <li><b>3.1:</b> Hacer que los contenidos textuales resulten legibles y comprensibles.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> el puntaje, peso y color tipográfico del cuerpo de texto y algunos botones imposibilita la legibilidad para personas mayores o con dificultades visuales.</p></li>
+            <li><b>3.2:</b> Hacer que las páginas web aparezcan y operen de manera predecible.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> existen botones con contenido vacío y botones repetidos.</p>
+            <p><img src="imagenes/3.2-inicio-egis-tramites.png" width="800px"></p></li>
+            <li><b>3.3:</b> Ayudar a los usuarios a evitar y corregir los errores.
+            <p><b>Trámite fácil:</b> al ingresar datos como el RUT, el sistema indica cómo escribirlo, indica si se cometió un error, e indica cómo editarlo de manera correcta (en la barra para el RUT no permite poner letras excepto la k). En la sección del rol, esto no pasa.</p>
+            <p><img src="imagenes/3.3-tramites.png" width="800px"></p></li>
+        </ul>
+        <h3>Robusto</h3>
+        <ul>
+            <li><b>4.1:</b> Maximizar la compatibilidad con las aplicaciones de usuario actuales y futuras, incluyendo las ayudas técnicas.
+            <p><b>Inicio, egis, preguntas frecuentes, trámite fácil:</b> el html y css no son válidos, entre ambos hay 61 errores.</p>
+            <p><img src="imagenes/4.1-todo.png" width="800px"><img src="imagenes/4.1-todos2.png" width="800px"></p></li>
+        </ul>
+    </p>
+    <h3>1.2) Mejoras de accesibilidad propuestas</h3>
+    <p><ul>
+        <li>Etiquetado alt correcto y en español.</li>
+        <li>Evitar los botones imagen.</li>
+        <li>Mejora en la tipografía (puntaje, color, peso).</li>
+        <li>Mejora en los breadcrumbs (orden correcto).</li>
+        <li>Proporcionar medios para que el sitio sea accesible para todo tipo de público.</li>
+        <li>Evitar colores demasiado saturados y vibrantes que dañan la vista.</li>
+        <li>Ralentizar el movimiento de los banners automáticos.</li>
+        <li>Evitar la repetición innecesaria de contenido, evitar links vacíos.</li>
+        <li>Mantener el código válido.</li>
+    </ul></p>
+    <h2>2) Evaluación de SEO</h2>
+    <p><ul>
+        <li>No hay ningún título en h1.</li>
+        <li>La metadescripción es muy corta (48 caracteres).</li>
+        <li>La página de inicio no tiene metadescripción ni meta-keywords.</li>
+        <li>La url utiliza guines bajos en vez de guiones altos.</li>
+        <li>El sitio no está optimizado para móbiles.</li>
+        <li>El sitio no cuenta con una página personalizada de error.
+        <p><img src="imagenes/seo1.png" width="800px"><img src="imagenes/seo2.png" width="800px"><img src="imagenes/seo3.png" width="800px"><img src="imagenes/seo4.png" width="800px"><img src="imagenes/seo5.png" width="800px"></p></li>
+    </ul></p>
+    <h3>2.1) Mejoras de SEO propuestas</h3>
+    <p><ul>
+        <li>Mejorar y agregar las metadescripciones correspondientes</li>
+        <li>Cambiar los guiones bajos por guiones altos en la url.</li>
+        <li>Optimizar el sitio para móbiles.</li>
+        <li>Añadir una página personalizada de error.</li>
+    </ul></p>
+    <h3>2.2) Análisis de metadatos y datos estructurados</h3>
+    <p><ul>
+        <li>Ninguna página tiene metadato de idioma.</li>
+        <li>El sitio no tiene errores de datos estructurados.
+        <p><img src="imagenes/datos-estructurados.png" width="800px"></p></li>
+    </ul></p>
+</body>
+</html>
